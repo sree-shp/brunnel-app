@@ -21,7 +21,7 @@ Follow these steps to run the project locally:
 
 3. Install the dependencies using npm or yarn:
    npm install
-   # or
+   or
    yarn install
 
 ## Available Scripts
