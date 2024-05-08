@@ -14,7 +14,7 @@ Before running this project, ensure you have the following installed:
 Follow these steps to run the project locally:
 
 1. Clone this repository to your local machine:
-   git clone https://github.com/your-username/vite-react-app.git
+   git clone https://github.com/sree-shp/brunnel-app.git
 
 2. Navigate into the project directory:
    cd vite-react-app
