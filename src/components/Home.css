@@ -1,0 +1,78 @@
+.home {
+  margin: 2rem;
+}
+
+.home-header {
+  padding: 16.97px 20.89px 16.97px 52.22px;
+  gap: 0px;
+  border-radius: 65.28px;
+  border: 1px 0px 0px 0px;
+  justify: space-between;
+  opacity: 0px;
+  border: 1px solid #eaeaea;
+  display: flex;
+  justify-content: space-between;
+}
+
+.get-projects-btn,
+.onboard-talent-btn {
+  height: 77.22px;
+  padding: 26.11px 41.78px 26.11px 41.78px;
+  gap: 5.22px;
+  border-radius: 107.06px;
+  border: 1.31px 0px 0px 0px;
+  opacity: 0px;
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.get-projects-btn {
+  border: 1.31px solid #eaeaea;
+}
+
+.get-projects-btn:hover {
+  background: #1c1c1c;
+  color: white;
+}
+
+.onboard-talent-btn {
+  background: #1c1c1c;
+  color: white;
+  border: 1.31px solid #1c1c1c;
+}
+
+.onboard-talent-btn:hover {
+  background: white;
+  color: black;
+  border: 1.31px solid #eaeaea;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 15.67px;
+}
+
+.footer {
+  width: 100%;
+  height: 144px;
+  padding: 60px;
+  background: #f5f5f5;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright-wrapper {
+  display: flex;
+}
+
+.footer-links {
+  width: 326px;
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+}
+
+.footer-links span:hover {
+  font-weight: 600;
+}

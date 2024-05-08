@@ -1,0 +1,76 @@
+.success {
+  padding: 2rem 4rem;
+  height: 100vh;
+}
+
+.header {
+}
+
+.success-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 41px;
+  margin: 6rem 0rem;
+}
+
+.messages-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.success-img {
+}
+
+.success-message {
+  color: #2da950;
+  font-family: Covered By Your Grace;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.congrats-message {
+  color: #1c1c1c;
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.additional-message {
+  color: #727272;
+  font-family: Manrope;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 35.1px;
+  text-align: center;
+}
+
+.redirect {
+  color: #727272;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timer {
+  color: #1c1c1c;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: center;
+}

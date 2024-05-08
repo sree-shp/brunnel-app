@@ -1,0 +1,269 @@
+.first-section {
+  padding: 0rem 2rem;
+  position: relative;
+  height: 1044px;
+  animation: moveFromBottom 1.5s ease forwards;
+}
+
+@keyframes moveFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0rem;
+}
+
+.heading-message-1 {
+  color: #2da950;
+  font-family: Covered By Your Grace;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.heading-message-2 {
+  color: #1c1c1c;
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.details-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.details-left-wrapper {
+  width: 60%;
+  position: relative;
+}
+
+.details-right-wrapper {
+  width: 40%;
+}
+
+.women-img {
+  position: absolute;
+  left: 180px;
+  border-radius: 50.7px;
+}
+
+.achievement-1 {
+  width: 267.82px;
+  height: 239px;
+  position: absolute;
+  top: 120px;
+  left: 32px;
+  padding: 30px;
+  gap: 10px;
+  border-radius: 27.11px;
+  background: #ffffff;
+  box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
+  transition: transform 0.3s ease;
+}
+
+.achievement-1:hover {
+  transform: scale(1.1) rotate(-15deg);
+}
+
+.achievement-1-number {
+  font-family: Switzer;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.achievement-1-text {
+  color: #828282;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+}
+
+.sparkle {
+  position: absolute;
+  top: -20px;
+  left: -8px;
+}
+
+.staff-deployment {
+  background: #ffffff;
+  display: flex;
+  width: 245px;
+  height: 88px;
+  position: absolute;
+  top: 420px;
+  left: 120px;
+  padding: 16px 32px 16px 16px;
+  gap: 14px;
+  border-radius: 111.54px;
+  opacity: 0px;
+  box-shadow: 0px 15.21px 35.49px 0px #00000017;
+  transition: transform 0.3s ease;
+}
+
+.staff-deployment:hover {
+  transform: scale(1.1);
+}
+
+.rocket-img-container {
+  background: #ddefe0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievement-2 {
+  width: 290.49px;
+  height: 239px;
+  position: absolute;
+  top: 360px;
+  left: 460px;
+  padding: 34px 30px 40px 36px;
+  gap: 20px;
+  border-radius: 28.36px;
+  border: 1.18px 0px 0px 0px;
+  background: #002e18;
+  border: 1.18px solid;
+  border-image-source: linear-gradient(
+    159.14deg,
+    #3d3d3d 6.08%,
+    rgba(61, 61, 61, 0) 85.58%
+  );
+  box-shadow: 0px 23.63px 37.81px 0px #1e1e1e17;
+  transition: transform 0.2s ease;
+}
+
+.achievement-2:hover {
+  transform: scale(1.1) rotate(15deg);
+}
+
+.achievement-2-number {
+  color: white;
+  font-family: Switzer;
+  font-size: 63.37px;
+  font-weight: 500;
+  line-height: 76.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.achievement-2-number-text {
+  color: #a6a3a0;
+  font-family: Switzer;
+  font-size: 22.81px;
+  font-weight: 500;
+  line-height: 31.94px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.achievement-2-text {
+  color: #cccccc;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+}
+
+.squares {
+  position: absolute;
+  top: 260px;
+  right: 0px;
+}
+
+.details-text {
+  color: #1c1c1c;
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  position: relative;
+  top: 60px;
+  z-index: 1000;
+}
+
+.explore-btn {
+  background: #1c1c1c;
+  width: 245px;
+  height: 88px;
+  padding: 31px 40px 31px 40px;
+  gap: 16px;
+  border-radius: 100px;
+  color: #ffffff;
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.32px;
+  text-align: center;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  position: relative;
+  top: 265px;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.explore-btn:hover {
+  transform: scale(1.05);
+}
+
+.explore-btn:hover .arrow {
+  transform: translateX(10px);
+}
+
+.carousel {
+  width: 56.25px;
+  height: 10.75px;
+  position: relative;
+  top: 125px;
+
+  gap: 12px;
+  display: flex;
+  gap: 12px;
+}
+
+.carousel div {
+  width: 10.75px;
+  height: 10.75px;
+  background: #e4e3e3;
+  border-radius: 50%;
+}
+
+.carousel div:nth-child(1) {
+  background: #2da950;
+}

@@ -1,0 +1,77 @@
+.second-section {
+  background: #e8eee7;
+  border-radius: 40px;
+  display: flex;
+  height: 749px;
+  margin: 2.5rem 0rem;
+}
+.questions-left {
+  width: 50%;
+  position: relative;
+  margin: 1rem 0rem;
+}
+
+.question-heading-wrapper {
+  margin: 4rem 6rem 0rem;
+}
+
+.question-sub-heading {
+  font-family: Covered By Your Grace;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #9e9d9d;
+}
+
+.question-heading {
+  color: #1c1c1c;
+  font-family: Manrope;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.union-img {
+  position: absolute;
+  bottom: 0;
+}
+
+.questions-right {
+  width: 581px;
+  margin: 8rem 2rem;
+}
+
+.question-wrapper {
+  color: #1c1c1c;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.question-wrapper div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.question-answer {
+  color: #617275;
+}
+
+.question-text {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.question-text:hover {
+  color: #2da950;
+}
